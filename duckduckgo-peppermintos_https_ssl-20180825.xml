@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"> 
+  <ShortName>DuckDuckGo (PeppermintOS)</ShortName> 
+  <Description>Search DuckDuckGo (with PeppermintOS sponsorship)</Description> 
+  <InputEncoding>UTF-8</InputEncoding> 
+  <LongName>DuckDuckGo (PeppermintOS) Search</LongName> 
+    <Image height="16" width="16" type="image/icon">https://start.peppermintos.com/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://duckduckgo.com/?q={searchTerms}&amp;t=peppermint"/>  
+  <Url type="application/x-suggestions+json" template="https://ac.duckduckgo.com/ac/?q={searchTerms}&amp;t=peppermint"/>
+</OpenSearchDescription>
